@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {%load static%}
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{% static './CSS/global.css'%}" />
+    <link rel="stylesheet" href="{% static './CSS/UserRegistration.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="user-registration">
+      <div class="user-registration-child"></div>
+      <div class="group-parent65">
+        <div class="group-parent66">
+          <div class="group-parent67">
+            <div class="rectangle-parent22">
+              <div class="group-child156"></div>
+              <div class="group-child157"></div>
+              <div class="group-child158"></div>
+              <div class="group-child159"></div>
+              <div class="group-child160"></div>
+              <div class="group-child161"></div>
+              <div class="group-child162"></div>
+            </div>
+            <div class="rectangle-parent23">
+              <div class="group-child163"></div>
+              <div class="group-parent68">
+                <div class="rectangle-parent24">
+                  <div class="group-child164"></div>
+                  <div class="group-child165"></div>
+                  <div class="group-child166"></div>
+                  <div class="group-child167"></div>
+                </div>
+                <div class="text-parent">
+                  <div class="text380">Text</div>
+                  <div class="text381">Text</div>
+                  <div class="text382">Text</div>
+                  <div class="text383">Text</div>
+                </div>
+              </div>
+              <div class="group-child168"></div>
+              <div class="group-child169"></div>
+              <div class="group-child170"></div>
+              <div class="group-child171"></div>
+              <div class="group-child172"></div>
+              <div class="group-child173"></div>
+            </div>
+            <div class="first-name-group">
+              <div class="first-name1">First Name</div>
+              <div class="contact2">
+                <p class="contact3">Contact</p>
+              </div>
+              <div class="email1">Email</div>
+              <div class="user-password">
+                <p class="contact3">User Password</p>
+              </div>
+              <div class="user-address">User Address</div>
+              <div class="last-name1">
+                <p class="contact3">Last Name</p>
+              </div>
+              <div class="user-registration1">User Registration</div>
+            </div>
+          </div>
+          <img class="group-child174" alt="" src="{% static './public/group-325.svg'%}" />
+
+          <div class="vector-parent14">
+            <img
+              class="group-child175"
+              alt=""
+              src="{ %static './public/rectangle-12.svg'%}"
+            />
+
+            <div class="group-parent69">
+              <img class="group-child176" alt="" src="{% static './public/group-11.svg'%}" />
+
+              <div class="about-us-parent8">
+                <div class="about-us20">
+                  <p class="contact3">About Us</p>
+                </div>
+                <div class="help10">Help</div>
+                <div class="faqs10">FAQs</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="datestamp11"></div>
+      </div>
+      <div class="button9" id="buttonContainer">
+        <div class="sign-up-for">Sign up</div>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = ".templates/Login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

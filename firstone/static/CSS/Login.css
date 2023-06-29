@@ -1,0 +1,184 @@
+.group-child147 {
+  position: absolute;
+  height: 15.5%;
+  width: 9.73%;
+  top: 84.5%;
+  right: 0;
+  bottom: 0;
+  left: 90.27%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.about-us19 {
+  margin: 0;
+}
+.about-us18,
+.faqs9,
+.help9 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  display: inline-block;
+  width: 190px;
+  height: 75px;
+}
+.faqs9,
+.help9 {
+  top: 0;
+  left: 341px;
+  width: 223px;
+}
+.faqs9 {
+  left: 616px;
+}
+.about-us-parent7,
+.group-parent64 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 839px;
+  height: 78px;
+}
+.group-parent64 {
+  height: 47.43%;
+  width: 88.47%;
+  top: 26.1%;
+  right: 3.13%;
+  bottom: 26.47%;
+  left: 8.4%;
+}
+.group-child148,
+.login-child,
+.login-inner,
+.vector-parent13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 272px;
+}
+.group-child148,
+.login-child,
+.login-inner {
+  top: 1024px;
+}
+.group-child148,
+.login-child {
+  top: 0;
+  height: 107.62px;
+}
+.group-child148 {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-darkslategray);
+  filter: blur(4px);
+  width: 1136px;
+  height: 679px;
+  opacity: 0.9;
+}
+.group-child150,
+.group-child151,
+.group-child152,
+.group-child153,
+.group-child154 {
+  position: absolute;
+  top: 147px;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 246px;
+  height: 54px;
+}
+.group-child151,
+.group-child152,
+.group-child153,
+.group-child154 {
+  top: 248px;
+  width: 720px;
+}
+.group-child152,
+.group-child153,
+.group-child154 {
+  top: 348px;
+  width: 246px;
+}
+.group-child153,
+.group-child154 {
+  top: 449px;
+  width: 720px;
+}
+.group-child154 {
+  top: 549px;
+  left: 305px;
+  border-radius: var(--br-31xl);
+  width: 246px;
+  cursor: pointer;
+}
+.log-in,
+.password,
+.username {
+  position: absolute;
+  top: 154px;
+  left: 20px;
+  display: inline-block;
+  width: 196px;
+  height: 47px;
+}
+.log-in,
+.password {
+  top: 358px;
+  left: 35px;
+  width: 181px;
+  height: 44px;
+}
+.log-in {
+  top: 555px;
+  left: 379px;
+  width: 179px;
+  height: 42px;
+}
+.group-child155 {
+  position: absolute;
+  top: 0;
+  left: 130px;
+  background-color: var(--color-gainsboro);
+  width: 677px;
+  height: 109px;
+}
+.welcome-to-this {
+  position: absolute;
+  top: 9px;
+  left: 165px;
+  display: inline-block;
+  width: 501px;
+  height: 76px;
+}
+.rectangle-parent21 {
+  position: absolute;
+  top: 27px;
+  left: 81px;
+  width: 807px;
+  height: 603px;
+}
+.rectangle-parent20 {
+  position: absolute;
+  top: 219px;
+  left: 135px;
+  width: 1136px;
+  height: 679px;
+}
+.datestamp10,
+.login {
+  position: relative;
+  width: 287px;
+  height: 60px;
+}
+.login {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1296px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

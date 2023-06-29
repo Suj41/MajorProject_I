@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {% load static %}
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{% static './CSS/global.css'%}" />
+    <link rel="stylesheet" href="{% static './CSS/LandingPage.css'%}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="landing-page">
+      <div class="landing-page-inner">
+        <div class="rectangle-wrapper10">
+          <div class="group-child177"></div>
+        </div>
+      </div>
+      <div class="rectangle-parent25">
+        <div class="group-child178"></div>
+        <div class="image1">Image</div>
+        <div class="group-child179"></div>
+        <div class="heading">Heading</div>
+        <div class="group-child180"></div>
+        <div class="text384">
+          <p class="text385">Text</p>
+        </div>
+      </div>
+      <img class="landing-page-child" alt="" src="{% static './public/group-6.svg'%}" />
+
+      <div class="datestamp12"></div>
+      <div class="componenttrue">
+        <div class="button10" id="buttonContainer">
+          <div class="sign-up">Log in</div>
+        </div>
+      </div>
+      <div class="vector-parent15">
+        <img class="group-child181" alt="" src="{% static './public/rectangle-12.svg'%}" />
+
+        <div class="group-parent70">
+          <img class="group-child182" alt="" src="{% static './public/group-11.svg'%}" />
+
+          <div class="about-us-parent9">
+            <div class="about-us22">
+              <p class="text385">About Us</p>
+            </div>
+            <div class="help11">Help</div>
+            <div class="faqs11">FAQs</div>
+          </div>
+        </div>
+      </div>
+      <div class="landing-page-item"></div>
+      <div class="landing-page-child1"></div>
+      <div class="landing-page-child2"></div>
+      <div class="landing-page-child3"></div>
+      <div class="figure-name">Figure Name</div>
+      <div class="image2">Image</div>
+      <div class="image3">Image</div>
+      <div class="image4">Image</div>
+      <div class="button11" id="buttonContainer1">
+        <div class="sign-up">Sign Up</div>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = ".temlates/Login.html";
+        });
+      }
+      
+      var buttonContainer1 = document.getElementById("buttonContainer1");
+      if (buttonContainer1) {
+        buttonContainer1.addEventListener("click", function (e) {
+          window.location.href = ".templates/UserRegistration.html";
+        });
+      }
+      </script>
+  </body>
+</html>
